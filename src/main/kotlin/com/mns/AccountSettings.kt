@@ -31,7 +31,7 @@ object AccountSettings {
             StringUtils.trimToNull(
                 System.getenv()["ACCOUNT_KEY"]
             ),
-            "0IoXk1eMLhxErkWvRlNhjlVdOxdaEQrgX7tMprZyGBOPq4fvCLzjpkCeqFAtDQDMKwnYEkw5fZH4ACDbMhjxSw=="
+            ""
         )
     )
     var HOST = System.getProperty(
@@ -40,7 +40,7 @@ object AccountSettings {
             StringUtils.trimToNull(
                 System.getenv()["ACCOUNT_HOST"]
             ),
-            "https://customer-order.documents.azure.com:443/"
+            ""
         )
     )
 }

@@ -23,6 +23,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
+    implementation 'com.azure:azure-cosmos:4.12.0'
+    implementation 'org.apache.commons:commons-lang3:3.0'
 }
 
 application {
